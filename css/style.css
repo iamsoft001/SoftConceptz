@@ -1,0 +1,311 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+.container{
+background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))
+, url(../img/pexels-hasan-albari-1229861.jpg);
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 100vh;   
+box-sizing: border-box; 
+}
+.containera{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))
+    , url(/img/pexels-negative-space-160107.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;   
+    box-sizing: border-box; 
+    }
+
+    
+
+
+nav{
+background:#000;
+opacity: 0.8;;
+}
+nav:after{
+content: '';
+display: block;
+clear: both;
+}
+nav h1{
+color: #ffffff;
+float: left;
+padding: 15px;
+margin-left: 150px;
+}
+.lin{
+margin-right: 150px;
+float: right;
+}
+.lin li{
+display: inline-block;
+list-style: none;
+position: relative;
+}
+.lin li a{
+display: inline-block;
+color: #fff;
+padding: 20px;
+text-decoration: none;
+
+}
+.lin li:hover{
+background: #555;
+}
+.lin li:hover .dropdown{
+display: block;
+}
+.red{
+color:rgb(54, 54, 6);
+}
+
+.dropdown{
+background: #111111;
+position: absolute;
+display: none;
+top: 57px;
+left: 0px;
+width: 150px;
+
+}
+.dropdown li{
+border: 2px solid #222;
+display: block;
+color: #fff;
+
+}
+.row{
+display: flex;
+height: 88%;
+align-items: center; 
+}
+.col{
+flex-basis: 50%;
+padding: 100px;
+}
+h2{
+color: white;
+font-size: 60px;
+margin-left: 50px;
+}
+p{
+color: white;
+font-size: 13px;
+line-height: 15px;
+margin-left: 50px;
+
+}
+button{
+width: 180px;
+font-size: 12px;
+padding: 12px 0;
+background:darkslategrey;
+border: 0;
+border-radius: 20px;
+outline: none;
+margin-top: 30px;
+margin-left: 50px;
+
+}
+
+.card{
+width: 270px;
+height: 270px;
+display: inline-block;
+border-radius: 10px;
+padding: 15px 50px;
+box-sizing: border-box;
+cursor: pointer;
+color: #fff;
+background-color:darkslategrey;
+}
+.card h3{
+color: lightblue;
+
+}
+.form-control{
+padding-top: 15px;
+}
+.mar{
+color: lightblue;
+margin-top: 15px;
+}
+
+.coll{
+width: 250px;
+height: 250px;
+display: inline-block;
+border-radius: 10px;
+box-sizing: border-box;
+cursor: pointer;
+margin: 15px 0px 0px 15px;
+background-image:url(/img/img\ \(10\).jpg);
+background-position: center;
+background-size: cover;
+transition: transform 0.5s;
+
+
+
+}
+.coll:hover{
+transform: translateY(-10px);
+
+}
+
+.collpap1{
+background-image: url(/img/img\ \(11\).jpg);
+}
+.collpap2{
+background-image: url(/img/img\ \(12\).jpg);
+}
+.collpap3{
+background-image: url(/img/img\ \(13\).jpg);
+}
+.collpap4{
+background-image: url(/img/img\ \(10\).jpg) ;
+}
+.collpap5{
+background-image: url(/img/img\ \(14\).jpg);
+}
+.collpap6{
+background-image: url(/img/img\ \(15\).jpg);
+}
+.collpap7{
+background-image: url(/img/img\ \(16\).jpg);
+}
+.collpap8{
+background-image: url(/img/img\ \(17\).jpg);
+}
+.collpap9{
+background-image: url(/img/img\ \(18\).jpg);
+}
+.collpap10{
+background-image: url(/img/img\ \(19\).jpg);
+}
+.collpap11{
+background-image: url(/img/img\ \(1\).jpg);
+}
+.collpap12{
+background-image: url(/img/img\ \(20\).jpg);
+}
+.collpap13{
+background-image: url(/img/img\ \(21\).jpg);
+}
+.collpap14{
+background-image: url(/img/img\ \(22\).jpg);
+}
+.collpap15{
+background-image: url(/img/img\ \(23\).jpg);
+}
+.collpap16{
+background-image: url(/img/img\ \(24\).jpg);
+}
+.collpap17{
+background-image: url(/img/img\ \(25\).jpg);
+}
+.collpap18{
+background-image: url(/img/img\ \(26\).jpg) ;
+}
+.collpap19{
+background-image: url(/img/img\ \(27\).jpg);
+}
+.collpap20{
+background-image: url(/img/img\ \(28\).jpg);
+}
+.collpap21{
+background-image: url(/img/img\ \(29\).jpg);
+}
+.collpap22{
+background-image: url(/img/img\ \(2\).jpg);
+}
+.collpap23{
+background-image: url(/img/img\ \(30\).jpg);
+}
+.collpap24{
+background-image: url(/img/img\ \(31\).jpg);
+}
+.collpap25{
+background-image: url(/img/img\ \(32\).jpg) ;
+}
+.collpap26{
+background-image: url(/img/img\ \(33\).jpg);
+}
+.collpap27{
+background-image: url(/img/img\ \(34\).jpg);
+}
+.collpap28{
+background-image: url(/img/img\ \(35\).jpg);
+}
+.collpap29{
+background-image: url(/img/img\ \(36\).jpg);
+}
+.collpap30{
+background-image: url(/img/img\ \(37\).jpg);
+}
+.collpap31{
+background-image: url(/img/img\ \(38\).jpg);
+}
+.collpap32{
+background-image: url(/img/img\ \(39\).jpg);
+}
+.collpap33{
+background-image: url(/img/img\ \(3\).JPG);
+}
+.collpap34{
+background-image: url(/img/img\ \(40\).jpg);
+}
+.collpap35{
+background-image: url(/img/img\ \(41\).jpg);
+}
+.collpap36{
+background-image: url(/img/img\ \(42\).jpg);
+}
+.collpap37{
+background-image: url(/img/img\ \(43\).jpg);
+}
+.collpap38{
+background-image: url(/img/img\ \(44\).jpg);
+}
+.collpap39{
+background-image: url(/img/img\ \(45\).jpg);
+}
+.collpap40{
+background-image: url(/img/img\ \(46\).jpg);
+}
+.collpap41{
+background-image: url(/img/img\ \(47\).jpg);
+}
+.collpap42{
+background-image: url(/img/img\ \(48\).jpg);
+}
+.collpap43{
+background-image: url(/img/img\ \(49\).JPG);
+}
+.collpap44{
+background-image: url(/img/img\ \(4\).jpg);
+}
+.collpap45{
+background-image: url(/img/img\ \(50\).jpg);
+}
+.collpap46{
+background-image: url(/img/img\ \(5\).jpg);
+}
+.collpap47{
+background-image: url(/img/img\ \(6\).jpg);
+}
+.collpap48{
+background-image: url(/img/img\ \(7\).jpg);
+}
+.collpap49{
+background-image: url(/img/img\ \(8\).jpg);
+}
+.collpap50{
+background-image: url(/img/img\ \(9\).jpg);
+}
